@@ -13,6 +13,9 @@ app.get('/home', (req, res) => {
     res.render('home.ejs')
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact.ejs')
+});
 
 // listener
 const PORT = process.env.PORT || 3000
