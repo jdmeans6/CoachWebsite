@@ -1,0 +1,15 @@
+HTML stands for Hypertext Markup Language
+    -The foundation of the web!
+
+HTML tags also known as ELEMENTS
+
+Bold in HTML is <b></b> or <strong></strong>
+    -strong tag is recommended
+Italicize in HTML is <i></i> or <em></em>
+    -em tag is recommended
+Underline in HTML is <u></u>
+
+<br> (break) tag used to break line
+<hr> (horizontal rules) tag used to put a line accross page
+
+Hyperlinks are put in HTML using <a> (anchor) tags 
