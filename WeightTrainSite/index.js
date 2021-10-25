@@ -20,7 +20,7 @@ let connection = `${url}/${db}`
 mongoose
     .connect(connection, authInfo)
     .then(() => console.log(`Connected to ${db} db.`))
-    .catch((err) => `Error connecting to ${db} db.`, err)
+    .catch((err) => `Error connecting to ${db} db.`)
 
 app.use(express.urlencoded({ extended: true}));
 app.use(require("express-session")({
