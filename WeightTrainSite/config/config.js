@@ -5,13 +5,12 @@ const conn = {
         auth: {
             authSource: 'admin'
         },
-        user: 'jdmeans',
-        pass: 'y9psPA!CJ5Te8nd'
+        user:
+        pass:
     },
-    url: 'bootcamp.porrz.mongodb.net/',
+    url:
     db: 'Bootcamp'
 }
 
 exports.conn = conn
 
-// mongodb+srv://jdmeans:y9psPA!CJ5Te8nd@bootcamp.porrz.mongodb.net/Bootcamp?retryWrites=true&w=majority
