@@ -36,7 +36,7 @@ passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.render("home.ejs")
 });
 
@@ -47,10 +47,23 @@ app.get("/about", (req, res) => {
 app.get('/signup', (req, res)=> {
     res.render('signup.ejs')
 })
+app.post('/signup', (req, res) => {
+    var newUser = new User({username: req.body.email});
+    User.register(newUser, req.body.password, (err, user) => {
+        if(err){
+            console.log(err);
+            return res.render('signup.ejs')
+        } else {
+            passport.authenticate('local')(req, res, () => {
+                res.redirect('account.ejs');
+            })
+        }
+    })
+})
 
-app.get("/payment", (req, res) => {
-    res.render("payment.ejs")
-});
+// app.get("/payment", (req, res) => {
+//     res.render("payment.ejs")
+// });
 
 app.get("/contact", (req, res) => {
     res.render("contact.ejs")

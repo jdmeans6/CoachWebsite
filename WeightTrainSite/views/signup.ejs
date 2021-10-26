@@ -19,12 +19,29 @@
     </div>
     <div class="row g-3 justify-content-center">
         <div class="col-md-4">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <label for="inputUsername4" class="form-label">Username</label>
+            <input type="username" class="form-control" id="inputUsername4">
         </div>
         <div class="col-md-4">
             <label for="inputPassword4" class="form-label">Password</label>
             <input type="password" class="form-control" id="inputPassword4">
+        </div>
+    </div>
+    <div class="row g-3 justify-content-center">
+        <div class="col-md-4">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-4">
+            <label for="inputTrainingLevel" class="form-label">Training Level</label>
+            <select id="inputTrainingLevel" class="form-select">
+                <option selected>Select One</option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+                <option>Athlete</option>
+                <option>Not sure</option>
+            </select>
         </div>
     </div>
     <div class="row g-3 justify-content-center">
@@ -56,19 +73,30 @@
             </div>
         </div>
         <div class="col-md-4">
-            <label for="inputTrainingLevel" class="form-label">Training Level</label>
-            <select id="inputTrainingLevel" class="form-select">
-                <option selected>Select One</option>
-                <option>Beginner</option>
-                <option>Intermediate</option>
-                <option>Advanced</option>
-                <option>Athlete</option>
-                <option>Not sure</option>
-            </select>
+            <label for="inputTrainingGoals">Gender:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Female
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Prefer not to say
+                </label>
+            </div>
         </div>
     </div>
     <div class="form-floating row g-3 justify-content-center">
-        <textarea class="col-8" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <textarea class="col-8" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
     </div>
     <div class="row g-3 justify-content-center">
         <div class="col-8">
