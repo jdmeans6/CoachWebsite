@@ -1,0 +1,12 @@
+for these javascript array methods, some alter the original array, others do not.
+    ALTER THE ARRAY 
+        - pop method
+        - reverse method
+        - push method
+        - unshift method
+        - shift method
+    NO CHANGE
+        - concat method
+        - slice method
+        - map method
+        - filter method
