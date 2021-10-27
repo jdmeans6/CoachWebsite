@@ -1,0 +1,9 @@
+objects are a data structure, or another container like arrays and variables
+    use them to store values and functions
+    you would group values and functions together to model something in the real world
+
+the data inside the objects are known as PROPERTIES
+    ex would be: 
+        product: 'bread'
+    consist of key/value pairs
+        cannot have two keys with the same name
