@@ -1,0 +1,8 @@
+DOM stands for Document Object Model
+    the document is the webpage
+    the objects are the html elements that are turned into objects
+    the model ...
+
+a node is any DOM object
+
+the Window object is the highest level object
